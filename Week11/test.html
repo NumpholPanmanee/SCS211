@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Staff Page</h2>
+
+<br>
+<!-- คนที่ ๅ -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">Marketing Specialist</p>
+        <p>Education : Master's Degree in Marketing </p>
+        <p>E-Mail : jane.smith@example.com</p>
+        <p>Phone : 987-654-3210</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่2 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-2.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Smith</h2>
+        <p class="title">Sales Manager</p>
+        <p>Education : Bachelor's Degree in Business </p>
+        <p>E-Mail : john.doe@example.com</p>
+        <p>Phone : 123-456-7890</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่3 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-3.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Michael Johnson</h2>
+        <p class="title">Software Engineer</p>
+        <p>Education : Bachelor's Degree in Computer Science </p>
+        <p>E-Mail : michael.johnson@example.com</p>
+        <p>Phone : 555-123-4567</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่4 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-4.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Sarah Williams</h2>
+        <p class="title">Financial Analyst</p>
+        <p>Education : Master's Degree in Finance </p>
+        <p>E-Mail : sarah.williams@example.com</p>
+        <p>Phone : 111-222-3333</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่5 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-5.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>David Lee</h2>
+        <p class="title">UI/UX Designer</p>
+        <p>Education : Bachelor's Degree in Graphic Design </p>
+        <p>E-Mail : david.lee@example.com</p>
+        <p>Phone : 777-888-9999</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่6 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-6.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Emily Taylor</h2>
+        <p class="title">Human Resources Manager</p>
+        <p>Education : Bachelor's Degree in Psychology </p>
+        <p>E-Mail : emily.taylor@example.com</p>
+        <p>Phone : 444-555-6666</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่7 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-7.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Andrew Roberts</h2>
+        <p class="title">Financial Advisor</p>
+        <p>Education : Bachelor's Degree in Economics </p>
+        <p>E-Mail : andrew.roberts@example.com</p>
+        <p>Phone : 222-333-4444</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<!-- คนที่8 -->
+  <div class="column">
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/all/profile-8.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Lisa Anderson</h2>
+        <p class="title">Marketing Manager</p>
+        <p>Education : Bachelor's Degree in Communication </p>
+        <p>E-Mail : lisa.anderson@example.com</p>
+        <p>Phone : 999-888-7777</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
